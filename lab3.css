@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Bebas+Neue&family=Noto+Sans&family=Permanent+Marker&family=Redressed&family=Roboto+Slab:wght@500&family=Roboto:wght@100&display=swap');
+
+body{
+  background-color: #e3edd5;
+  font-family:'Roboto Slab';
+  margin-left:100px;
+  margin-right:100px;
+}
+
+
+h1{
+    font-family:'Akaya Telivigala';
+    font-size:60px;
+    /* text-align: center; */
+    color:#2f4a0d;
+    margin-left:50px;
+}
+
+h2{
+  font-family:'Akaya Telivigala';
+  font-size:35px;
+  color:#2f4a0d;
+  margin-bottom:10px;
+}
+
+h3{
+  font-family:'Akaya Telivigala';
+  color: #457d01;
+  font-size:28px;
+  margin:0px 0px 5px 25px;
+  text-decoration: underline;
+}
+
+
+p{
+  font-size:18px;
+  color:#4F463E;
+  margin-left:25px;
+  margin-top:0px;
+}
+
+
+tbody {
+    font-size: 90%;
+  }
+
+tfoot {
+    font-weight: bold;
+  }
+
+
+#tablename{
+  text-align: center;
+  margin-top:50px;
+  text-decoration: underline;
+}
+
+caption{
+  color:#2f4a0d;
+}
+
+table{
+  margin-left:100px;
+  margin-right:100px;
+  padding-bottom:50px;
+  padding-top:30px;
+  border: #53663b solid 2px;
+  margin-bottom:100px;
+  padding-left:30px;
+  padding-right:30px;
+  background-color:#f2ece6;
+  color:#4F463E;
+}
+
+.sections{
+  padding:30px;
+}
+
+
+#giraffepng{
+  width:300px;
+  height:300px;
+  display: block;
+  border:#2f4a0d solid 2px;
+  float:left;
+  margin:30px;
+}
+
+
+input{
+  margin:10px;
+}
+
+
+.form{
+  background-color: #f2ece6;
+  color:#2f4a0d;
+  margin-top:10px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input:focus {
+    background-color: #e3edd5;
+    color: black;
+    border-color:black;
+  }
+
+input:valid {
+  border: 2px solid green;
+}
+
+input:invalid {
+  border: 1px solid white;
+  box-shadow: 0 0 3px red;
+}
+
+input:not([type="submit"]):valid {
+    border-color: white;
+    box-shadow: 0 0 3px #2f4a0d;
+}
+
+input:not([type="submit"]) + .inputRequirements {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 1s ease-out;
+}
+
+input:not([type="submit"]):hover + .inputRequirements,
+input:not([type="submit"]):focus + .inputRequirements,
+input:not([type="submit"]):active + .inputRequirements {
+  max-height: 1000px;
+  transition: max-height 1s ease-in;
+}
